@@ -1,0 +1,40 @@
+body{
+    background-image:url(./imgaes/education.back.jpg) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background:blur(50px);
+}
+.box{
+    margin: 100px 0 0 0;
+    width:100%; 
+    height:450px;
+    display:flex;
+    justify-content:center ;
+   gap:50px;
+}
+.box img{
+    width:250px;
+    height:100%;
+    object-fit:fill;
+    border-radius:20%;
+    border:2px solid rgba(254, 243, 243, 0.684);
+    transition: all ease-in-out 0.5s;    
+}
+.box img:hover{
+    width:450px;
+
+}
+p {
+    display: none;
+    height: 90px;
+    width: 250px;
+    border:3px solid black;
+    color:white;
+    font-family: Lucida Console;
+    border-radius:10%;
+    padding:10px 0px 10px;
+  }
+
+img:hover+p{
+    display:block;
+}
