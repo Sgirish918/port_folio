@@ -1,0 +1,98 @@
+body{
+    background-color:#dceff8;
+    color:black ;
+    font-family:'Poppins',sans-serif;
+}
+*{
+    margin:0;
+    padding: 0;
+}
+nav{
+    display:flex;
+    justify-content:space-around ;
+    align-items:center;
+    height:70px ;
+    background-color:#F8EDE3 ;
+    }
+    #na{
+        border-image:blur(0.1px) ;
+    }
+nav ul{
+    display:flex;
+    justify-content:center ;
+}
+nav ul li{
+    list-style: none;
+    margin:0 25px;
+}
+nav ul li a{
+    text-decoration: none;
+    color:rgb(181, 106, 251);
+}
+nav ul li a:hover{
+    color:rgb(249, 64, 64);
+    font-size:20px ;
+}
+.start{
+    font-size:1.5rem ;
+}
+.starsc{
+    display:flex;
+    justify-content: space-around;
+    margin:23px 0;
+}
+.startstar{
+    font-size:2.3rem ;
+    margin:130px 0;
+}
+.starsc>div{
+    width:30%;
+
+}
+.endstar{
+    height:400px;
+    width:400px;
+    margin:30px;
+}
+#ma{
+    height:400px;
+    width:350px;
+    object-fit:cover;
+    border-radius:30px;
+    
+}
+#ma:hover{
+    
+    box-shadow:2px 2px 20px rgb(9, 9, 9);
+    height:450px ;
+    width:300px;
+}
+#name{
+    font-size:1.4rem ;
+}
+.red{
+    color:#e47c48;
+}
+#title{
+    color:#e47c48;
+}
+hr{
+    height:2px;
+    background-color: #e47c48;
+    margin: 40px 84px;
+}
+#det{
+    text-decoration: none;
+    color:rgb(181, 106, 251);    
+}
+#det:hover{
+    color:rgb(249, 64, 64);
+    font-size:20px ;
+}
+img{
+    height:18px;
+    width:30px; 
+}
+a{
+    color:blue;
+}
